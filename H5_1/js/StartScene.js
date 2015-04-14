@@ -9,7 +9,7 @@ var StartScene = cc.Scene.extend({
         var size = cc.director.getWinSize();
         var sprite = cc.Sprite.create("res/HelloWorld.jpg");
         sprite.setPosition(size.width / 2, size.height / 2);
-        sprite.setScale(1.8);
+        sprite.setScale(1);
         this.addChild(sprite);
     }
 });
